@@ -1,0 +1,63 @@
+.btn__secondary {
+    color: #FFF;
+    background: none;
+    border: 1px solid rgba(255, 255, 255, 0.33);
+    box-sizing: border-box;
+    border-radius: 999px;
+    padding: 16px 24px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 16px;
+    width: fit-content;
+    margin-top: 32px;
+    margin-bottom: 80px;
+    cursor: pointer;
+    transition: 0.4s ease;
+  &:focus {
+    outline: none;
+  }
+  &:hover {
+    color: #0f1624;
+    background: #fff;
+    border: 1px solid #fff;
+  }
+  &:active {
+    background: #e0e4eb;
+    border: 1px solid #304169;
+    box-shadow: inset 0px 2px 1px rgba(46, 49, 55, 0.15), inset 0px 0px 4px rgba(20, 20, 55, 0.3);
+  }
+
+}
+
+.button__front {
+  border: none;
+  border-radius: 50px;
+  color: #fff;
+  background: linear-gradient(270deg, #F46737 0%, #945DD6 100%);
+  opacity: 1;
+  transition: all 1s ;
+  font-size: 24px;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: inset 0px 2px 1px rgba(46, 49, 55, 0.15);
+  padding: 10px 20px;
+
+  &:hover {
+    background: linear-gradient(270deg, #00DBD8 0%, #B133FF 100%); 
+  }
+}
+
+.divider {
+  width: 64px;
+  height: 6px;
+  border-radius: 10px;
+  background-color: #fff;
+  background:
+    'linear-gradient(270deg, #F46737 0%, #945DD6 100%)'
+    'linear-gradient(270deg, #13ADC7 0%, #945DD6 100%)';
+
+}
+
+.btns {
+  cursor: pointer;
+}

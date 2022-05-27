@@ -1,0 +1,28 @@
+.hero {
+    &__container {
+        max-width: 500px;
+        display: flex;
+        justify-content: start;
+        margin-top: 150px;
+    }
+
+    &__text {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+    }
+
+    &__title {
+        font-size: 34px;
+        font-weight: 700;
+        text-align: left;
+    }
+
+    &__description {
+        text-align: left;
+        max-width: 500px;
+        margin-bottom: 30px;
+        line-height: 30px;
+    }
+}
