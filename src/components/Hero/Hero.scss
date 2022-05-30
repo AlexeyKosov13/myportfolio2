@@ -11,6 +11,8 @@
         flex-direction: column;
         justify-content: start;
         align-items: start;
+        padding: 0 20px 0 20px;
+
     }
 
     &__title {
@@ -24,5 +26,26 @@
         max-width: 500px;
         margin-bottom: 30px;
         line-height: 30px;
+    }
+}
+
+@media (max-width: 720px) {
+    .hero {
+        &__container {
+            max-width: 600px;
+            margin-top: 50px;
+        }
+        &__title {
+            font-size: 30px;
+        }
+    }
+}
+
+@media (max-width: 568px) {
+    .hero {
+        &__text {
+            justify-content: center;
+            align-items: center;
+        }
     }
 }

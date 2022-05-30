@@ -44,9 +44,29 @@
             height: 30px;
             margin-right: 13px;
             transition: all 0.5s;
+            filter: invert(1);
             &:hover {
                 transform: scale(1.2);
             }
         }
     }
 }
+
+@media (max-width: 768px) {
+    .header {
+        &__logo {
+            span {
+                display: none;
+            }
+        }
+    }
+}
+
+@media (max-width: 576px) {
+    .header {
+        &__nav {
+            display: none;
+        }
+    }
+}
+

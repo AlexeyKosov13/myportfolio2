@@ -41,22 +41,13 @@
   cursor: pointer;
   box-shadow: inset 0px 2px 1px rgba(46, 49, 55, 0.15);
   padding: 10px 20px;
+  
 
   &:hover {
     background: linear-gradient(270deg, #00DBD8 0%, #B133FF 100%); 
   }
 }
 
-.divider {
-  width: 64px;
-  height: 6px;
-  border-radius: 10px;
-  background-color: #fff;
-  background:
-    'linear-gradient(270deg, #F46737 0%, #945DD6 100%)'
-    'linear-gradient(270deg, #13ADC7 0%, #945DD6 100%)';
-
-}
 
 .btns {
   cursor: pointer;

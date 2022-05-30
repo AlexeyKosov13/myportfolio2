@@ -36,3 +36,29 @@
     transform: rotate(360deg);
   }
 }
+
+.divider {
+  width: 64px;
+  height: 6px;
+  border-radius: 10px;
+  background-color: #fff;
+  background: linear-gradient(270deg, #F46737 0%, #945DD6 100%);
+  margin-top: 60px;
+  margin-left: 20px;
+}
+
+.title {
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 36px;
+  width: max-content;
+  max-width: 100%;
+  margin-bottom: 46px;
+  margin-left: 20px;
+}
+
+@media (max-width: 568px) {
+  .divider {
+    
+  }
+}

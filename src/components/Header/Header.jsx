@@ -32,14 +32,14 @@ function Header() {
               </ul>
           </nav>
           <div className="header__social">
-              <a href="#">
-                  <AiFillGithub className='header__social-logo'/>
+              <a href="https://t.me/fosterkos">
+                  <img src='/images/social/telegram.png' alt='telegram' className='header__social-logo'/>
               </a>
-              <a href="#">
-                  <AiFillLinkedin className='header__social-logo'/>
+              <a href="https://vk.com/id20826044">
+                <img src='/images/social/vk.png' alt='vk' className='header__social-logo'/>
               </a>
-              <a href="#">
-                  <AiFillInstagram className='header__social-logo'/>
+              <a href="https://github.com/AlexeyKosov13">
+              <img src='/images/social/github.png' alt='github' className='header__social-logo'/>
               </a>
           </div>
     </div>
