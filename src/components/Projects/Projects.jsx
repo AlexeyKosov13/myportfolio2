@@ -10,6 +10,11 @@ function Projects() {
       <div className="projects__items">
         {projects.map((item) => (
           <div className="projects__item" key={item.id}>
+            <div className="item__browser">
+              <div className="item__browser-circle"></div>
+              <div className="item__browser-circle"></div>
+              <div className="item__browser-circle"></div>
+            </div>
             <div className="item__img">
               <img src={item.image} alt="project" className="item__img-image" />
             </div>

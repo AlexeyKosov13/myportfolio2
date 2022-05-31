@@ -3,7 +3,7 @@ export const projects = [
     title: "Furniture lending",
     description:
       "Lending-сайт компании производящей мебель. В коде используется API yandex map. На js выполнено модальное окно, таймер обратного отсчета, опрос. При апомощи JQuery реалезован ввод номера телефона",
-    image: "/images/projects/1.jpg",
+    image: "images/projects/1.png",
     tags: ["HTML5", "SCSS", "JavaScript"],
     source: "https://github.com/AlexeyKosov13/furnitureLending",
     visit: "https://alexeykosov13.github.io/furnitureLending/",
@@ -13,7 +13,7 @@ export const projects = [
     title: "Кино-портал",
     description:
       "Кино-портал, используется API kinopoisk. Присутствует сортировка и выбор списков. Вывод модального окна с дополнительной информацией. Так же есть главная страница с двумя слайдерами, страница с заказами билетов и выбор места. Так же страница с игрой по угадыванию фильмов",
-    image: "/images/projects/2.jpg",
+    image: "images/projects/2.png",
     tags: ["HTML5", "JavaScript"],
     source: "https://github.com/AlexeyKosov13/cinemaChoseSeat",
     visit:
@@ -24,7 +24,7 @@ export const projects = [
     title: "Mагазин роллов",
     description:
       "магазин для заказов роллов. Добавление, удаление и подсчет общей суммы в корзине реализовано все на JavaScript",
-    image: "/images/projects/3.jpg",
+    image: "images/projects/3.png",
     tags: ["HTML5", "JavaScript"],
     source: "https://github.com/AlexeyKosov13/rolliShop",
     visit: "https://alexeykosov13.github.io/rolliShop/",
@@ -34,7 +34,7 @@ export const projects = [
     title: "Змейка",
     description:
       "Классическая игра змейка, с подсчетом собранных яблок. В игре можно выбрать сложность, за счет чего змейка двигается медленней или быстрее",
-    image: "/images/projects/4.jpg",
+    image: "images/projects/4.png",
     tags: ["Canvas", "JavaScript"],
     source: "https://github.com/AlexeyKosov13/snakeGame",
     visit: "https://alexeykosov13.github.io/snakeGame/",
@@ -44,7 +44,7 @@ export const projects = [
     title: "Погода",
     description:
       "Введя в строке поиска название города, получаем актуальную погоду в выбранном месте. используется API Open Weather Map",
-    image: "/images/projects/5.jpg",
+    image: "images/projects/5.png",
     tags: ["React"],
     source: "https://github.com/AlexeyKosov13/weatherApp",
     visit: "https://alexeykosov13.github.io/snakeGame/",
@@ -53,7 +53,7 @@ export const projects = [
   {
     title: "Instagram",
     description: "Копия сайта instagram реалезованного на React",
-    image: "/images/projects/6.jpg",
+    image: "images/projects/6.png",
     tags: ["React", "HTML5"],
     source: "https://github.com/AlexeyKosov13/instagram",
     visit: "https://alexeykosov13.github.io/instagram/",
@@ -62,7 +62,7 @@ export const projects = [
   {
     title: "Магазин телефонов",
     description: "Магазин телефонов на React.",
-    image: "/images/projects/7.jpg",
+    image: "images/projects/7.png",
     tags: ["React", "Redux"],
     source: "https://github.com/AlexeyKosov13/phone-shop",
     visit: "https://alexeykosov13.github.io/phone-shop/#/",
@@ -71,7 +71,7 @@ export const projects = [
   {
     title: "Магазин игр",
     description: "Магазин игр на React.",
-    image: "/images/projects/8.jpg",
+    image: "images/projects/8.png",
     tags: ["React", "Redux"],
     source: "https://github.com/AlexeyKosov13/react-shop-game",
     visit: "https://react-shop-game-p3eqk5uvr-alexeykosov13.vercel.app/",
@@ -80,7 +80,7 @@ export const projects = [
   {
     title: "Сайт путешествий",
     description: "Сайт туристической компании выполненый на Reactю",
-    image: "/images/projects/9.jpg",
+    image: "images/projects/9.png",
     tags: ["React"],
     source: "https://github.com/AlexeyKosov13/react-travel-site",
     visit: "https://react-travel-site-sand.vercel.app/",

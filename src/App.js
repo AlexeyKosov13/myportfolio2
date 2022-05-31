@@ -14,8 +14,8 @@ function App() {
       <Header />
       <Section />
       <Projects /> 
-      {/* <Technologies />
-      <Contacts /> */}
+      <Technologies />
+      <Contacts />
     </div>
   );
 }

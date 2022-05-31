@@ -32,7 +32,7 @@ function Technologies() {
                             <img src="/images/skills/js.svg" alt="js" />
                         </div>
                         
-                        <h4 clasName="skills__item-title">Java Script</h4>
+                        <h4 className="skills__item-title">Java Script</h4>
                         <div className="skills__item-text">Этот язык программирования позволяет оживить все что угодно: слайдеры, окна, подсказки, вкладки, получение данных от сервера и многое другое</div>
                     </div>
                     <div className="skills__item">
