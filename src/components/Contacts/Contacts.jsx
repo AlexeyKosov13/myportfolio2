@@ -67,15 +67,15 @@ function Contacts() {
           >
             <div className="contacts__input">
               <input name="name" type="text" id="name" />
-              <label for="name">Ваше имя</label>
+              <label htmlFor="name">Ваше имя</label>
             </div>
             <div className="contacts__input">
               <input name="email" type="email" id="email" />
-              <label for="email">Выша почта</label>
+              <label htmlFor="email">Выша почта</label>
             </div>
             <div className="contacts__textarea">
               <textarea name="message" id="text"></textarea>
-              <label for="text">Ваше сообщение</label>
+              <label htmlFor="text">Ваше сообщение</label>
             </div>
             <div className="contacts__btn">
               <button type="submit">Отправить сообщение</button>

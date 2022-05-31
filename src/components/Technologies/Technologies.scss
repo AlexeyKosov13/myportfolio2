@@ -6,7 +6,7 @@
         padding-top: 60px;
         grid-template-columns: repeat(auto-fit, 270px);
         grid-auto-rows: minmax(270px, auto);
-        justify-content: space-between;
+        justify-content: space-around;
         row-gap: 13px;
         margin-bottom: 40px;
         
@@ -15,6 +15,7 @@
         border: 1px solid rgb(136, 125, 235);
         padding: 30px;
         border-radius: 5px;
+        margin: 10px;
         &:hover {
             box-shadow: 3px 3px 20px rgba(80, 78, 78, 0.5);
         }
