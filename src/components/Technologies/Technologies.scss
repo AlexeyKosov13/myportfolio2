@@ -16,6 +16,10 @@
         padding: 30px;
         border-radius: 5px;
         margin: 10px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
         &:hover {
             box-shadow: 3px 3px 20px rgba(80, 78, 78, 0.5);
         }
@@ -28,6 +32,7 @@
         &-text {
             font-size: 12px;
             line-height: 18px;
+            text-align:justify;
         }
 
         &-title {

@@ -1,3 +1,4 @@
+
 .contacts {
     &__container{
         padding-bottom: 90px;
@@ -53,8 +54,7 @@
     &__form {
         margin-top: 40px;
         display: grid;
-        padding-right: 20px;
-        grid-template: 30px 150px 80px / repeat(2, 200px);
+        grid-template: 30px 150px 80px / repeat(2, 220px);
         column-gap: 10px;
         row-gap: 20px;
         justify-content: space-between;
@@ -108,7 +108,7 @@
         }
 
         &__form {
-            grid-template: 30px 150px 80px / repeat(2, 160px);
+            grid-template: 30px 150px 80px / repeat(2, 170px);
             column-gap: 10px;
             row-gap: 20px;
         }
@@ -126,20 +126,27 @@
             display: flex;
             flex-direction: column;
             justify-content: center;
+            align-items: center;
+        }
+
+        &__text {
+            font-size: 16px;
+            width: 500px;
         }
 
         &__wrapper {
-            grid-template-columns: 530px;
+            grid-template-columns: 550px;
         }
 
         &__form {
             margin-top: 40px;
             display: grid;
             grid-template: 30px 150px 80px / repeat(2, 230px);
-            column-gap: 10px;
-            row-gap: 20px;
-            justify-content: space-between;
-            
+            row-gap: 20px;           
+        }
+
+        &__input:first-child {
+            margin-right: 0px;
         }
     }
 
@@ -153,8 +160,18 @@
         }
 
         &__form {
-            grid-template-rows: 30px 30px 150px 80px ;
-            grid-template-columns: 1fr;
+            
+            justify-content: center;
+            grid-template: 30px 30px 150px 80px / 300px;
+        }
+
+        &__text {
+            font-size: 14px;
+            width: 300px;
+        }
+
+        &__textarea {
+            grid-column: 1;
         }
     }
 }

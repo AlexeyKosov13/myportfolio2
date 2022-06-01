@@ -1,8 +1,14 @@
 import React from "react";
 import { projects } from "../Projects";
+import { useContext } from 'react';
+import { ThemeContext } from '../../context';
 import "./Projects.scss";
 
 function Projects() {
+
+  const theme = useContext(ThemeContext);
+  const darkMode = theme.state.darkMode;
+
   return (
     <section id="projects" className="container projects__container">
       <div className="divider"></div>
@@ -20,8 +26,8 @@ function Projects() {
             </div>
             <div className="item__info">
               <div className="item__text">
-                <h2 className="item__title">{item.title}</h2>
-                <div className="item__description">{item.description}</div>
+                <h2 className="item__title" style={{color: darkMode && '#9cc9e3' }}>{item.title}</h2>
+                <div className="item__description" style={{color: darkMode && '#e4e6e7' }}>{item.description}</div>
               </div>
 
               <div className="item__tags">

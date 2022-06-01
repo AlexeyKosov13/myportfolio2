@@ -5,10 +5,11 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: rgb(38, 38, 82);
-  color: #fff;
+  color: #000;
   background: rgb(2, 2, 26);
   min-height: 100vh;
   animation: move 1s linear infinite forwards;
+
 }
 
 body::before {
@@ -18,7 +19,7 @@ body::before {
   width: 200px;
   background: rgb(0, 255, 255);
   filter: blur(140px);
-  z-index: -1;
+  
 }
 body::after {
   content: "";
@@ -29,7 +30,7 @@ body::after {
   width: 200px;
   background: rgb(183, 0, 255);
   filter: blur(140px);
-  z-index: -1;
+ 
 }
 
 code {
@@ -43,7 +44,7 @@ code {
 
 a {
   text-decoration: none;
-  color: #fff;
+  color: #000;
 }
 
 ul {

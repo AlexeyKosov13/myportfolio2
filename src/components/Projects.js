@@ -47,7 +47,7 @@ export const projects = [
     image: "images/projects/5.png",
     tags: ["React"],
     source: "https://github.com/AlexeyKosov13/weatherApp",
-    visit: "https://alexeykosov13.github.io/snakeGame/",
+    visit: "https://alexeykosov13.github.io/weatherApp/",
     id: 4,
   },
   {

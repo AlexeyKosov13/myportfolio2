@@ -1,0 +1,29 @@
+.toggle {
+    width:60px;
+    height: 30px;
+    border-radius: 25px;
+    border: 1px solid #999;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+    top: 30px;
+    right: 70px;
+
+    &__icon {
+        width: 25px;
+        height: 25px;
+    }
+
+    &__button {
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        background-color: #999;
+        position: absolute;
+        cursor: pointer;
+        transition: all 0.5s ease;
+    }
+}
+

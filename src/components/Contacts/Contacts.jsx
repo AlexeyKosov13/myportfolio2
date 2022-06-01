@@ -2,9 +2,15 @@ import React from "react";
 import { useRef } from "react";
 import Button from "../Buttons/Button";
 import emailjs from "emailjs-com";
+import { useContext } from 'react';
+import { ThemeContext } from '../../context';
 import "./Contacts.scss";
 
 function Contacts() {
+
+  const theme = useContext(ThemeContext);
+  const darkMode = theme.state.darkMode;
+
   const form = useRef();
 
   const sendEmail = (e) => {
@@ -40,6 +46,7 @@ function Contacts() {
                 src="/images/social/telegram.png"
                 alt="telegram"
                 className="header__social-logo"
+                style={{filter: darkMode && 'invert(1)'}}
               />
             </a>
             <a href="https://vk.com/id20826044">
@@ -47,6 +54,7 @@ function Contacts() {
                 src="/images/social/vk.png"
                 alt="vk"
                 className="header__social-logo"
+                style={{filter: darkMode && 'invert(1)'}}
               />
             </a>
             <a href="https://github.com/AlexeyKosov13">
@@ -54,6 +62,7 @@ function Contacts() {
                 src="/images/social/github.png"
                 alt="github"
                 className="header__social-logo"
+                style={{filter: darkMode && 'invert(1)'}}
               />
             </a>
           </div>
@@ -71,7 +80,7 @@ function Contacts() {
             </div>
             <div className="contacts__input">
               <input name="email" type="email" id="email" />
-              <label htmlFor="email">Выша почта</label>
+              <label htmlFor="email">Ваша почта</label>
             </div>
             <div className="contacts__textarea">
               <textarea name="message" id="text"></textarea>

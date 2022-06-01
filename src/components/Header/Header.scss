@@ -40,11 +40,10 @@
         display: flex;
     
         &-logo {
-            width: 30px;
-            height: 30px;
+            width: 35px;
+            height: 35px;
             margin-right: 13px;
             transition: all 0.5s;
-            filter: invert(1);
             &:hover {
                 transform: scale(1.2);
             }
