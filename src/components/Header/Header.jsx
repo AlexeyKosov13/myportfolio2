@@ -12,7 +12,7 @@ function Header() {
   return (
       <div className='container header-container'>
           <div className="header__name">
-                  <a href="#" className="header__logo" style={{background:darkMode? '#222':'white', color:darkMode && 'white'}}>
+                  <a href="#" className="header__logo" style={{ color:darkMode && 'white'}}>
                     <DiCssdeck className='header__logo-img' />
                     <span>Portfolio</span>
                 </a>           

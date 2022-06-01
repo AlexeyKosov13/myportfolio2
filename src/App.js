@@ -16,7 +16,7 @@ function App() {
   const darkMode = theme.state.darkMode;
 
   return (
-    <div style={{background:darkMode? '#222':'white', color:darkMode && 'white'}}>
+    <div style={{background:darkMode? 'radial-gradient( #113279, #010101)':'radial-gradient( #ffffff, #6b8aee)', color:darkMode && 'white'}}>
       <Toggle />
       <Header />
       <Section />
