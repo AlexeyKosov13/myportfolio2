@@ -1,0 +1,118 @@
+.about {
+
+    &__carousel {
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 20px;
+    }
+}
+
+.carousel {
+
+    &__item {
+        border-radius: 3px;
+        max-width: 190px;
+        padding: 5px;
+
+        &-img {
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+
+        item {
+            &__text {
+                font-size: 14px;
+                line-height: 22px;
+                letter-spacing: 0.02em;
+                color: rgba(255, 255, 255, 0.75);
+                padding-right: 16px;
+            }
+
+            &__title {
+                font-weight: bold;
+                font-size: 24px;
+                line-height: 32px;
+                letter-spacing: 0.02em;
+                display: flex;
+                background: linear-gradient(121.57deg, #FFFFFF 10%, rgba(255, 255, 255, 0.66) 30.15%);
+                margin-bottom: 8px;
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+            }
+    
+            &__img {
+                margin-left: 21px;
+                -webkit-mask-image: linear-gradient(to right, rgba(0,0,0,1), rgba(0,0,0,0));
+                width: 100%;
+            }
+        }
+    }
+
+    &__buttons {
+        width: 288px;
+        display: none;
+        visibility: hidden;
+    }
+
+    &__button {
+        box-sizing: border-box;
+        background: none;
+        padding: 4px;
+        border: none;
+        cursor: pointer;
+        color: #fff;
+        margin-right: 4px;
+        transform: scale(1);
+        &:focus {
+            outline: none;
+        }
+
+        &-dot {
+            background-color: white;
+            border-radius: 10px;
+            margin: auto;
+            width: 5px;
+            height: 5px;
+
+            .active {
+                color: pink;
+                opacity: 0.5;
+                transform: scale(1.3) ;
+            }
+        }
+    }
+    
+}
+
+@media (max-width: 940px) {
+    .about {
+        &__carousel {
+            overflow-x: scroll;
+            -webkit-overflow-scrolling: touch;
+            scroll-snap-type: x mandatory;
+            touch-action: pan-x;
+            justify-content: initial;
+            margin-bottom: 8px; 
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .carousel {
+        &__buttons {
+            display: flex;
+            visibility: visible;
+        }
+    }
+    
+    .about {
+        &__carousel {
+            overflow-x: scroll;
+            -webkit-overflow-scrolling: touch;
+            scroll-snap-type: x mandatory;
+            touch-action: pan-x;
+            justify-content: initial;
+            margin-bottom: 8px;
+        }
+    }
+}

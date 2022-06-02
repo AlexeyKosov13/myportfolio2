@@ -11,7 +11,7 @@ function Hero({handleClick}) {
                   В мое портфолио
               </h1>
               <p className="hero__description">
-                  The purpose of JavaScript Mistery is to help aspring and aspring and established developers to take their development skills to the next level and build awesome apps.
+                  Меня зовут Алексей. На данный момент я являюсь junior Front-end разработчиком. 
               </p>
               <Button className='btns btn__secondary' onClick={handleClick}>Узнать больше</Button>
           </div>   

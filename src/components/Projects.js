@@ -61,7 +61,7 @@ export const projects = [
   },
   {
     title: "Магазин телефонов",
-    description: "Магазин телефонов на React.",
+    description: "Магазин телефонов на React. Использован сервис для хранения данных mockapi",
     image: "images/projects/7.png",
     tags: ["React", "Redux"],
     source: "https://github.com/AlexeyKosov13/phone-shop",
@@ -89,9 +89,9 @@ export const projects = [
 ];
 
 export const TimeLineData = [
-  { year: 2017, text: "Started my journey" },
-  { year: 2018, text: "Worked as a freelance developer" },
-  { year: 2019, text: "Founded JavaScript Mastery" },
-  { year: 2020, text: "Shared my projects with the world" },
-  { year: 2021, text: "Started my own platform" },
+  { year: 2013, text: "Бакалавриат по специальности 'Управление и информатика в технических системах'" },
+  { year: 2015, text: "Онлайн курсы по HTML и верстке" },
+  { year: 2019, text: "Онлайн курсы по JavaScript на Udemy" },
+  { year: 2020, text: "Онлайн курсы по React на Udemy" },
+  { year: 2021, text: "Freelance" },
 ];
