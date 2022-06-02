@@ -4,7 +4,7 @@ import Header from './components/Header/Header'
 import './App.css';
 import Section from './components/Section/Section';
 import Projects from './components/Projects/Projects';
-import Technologies from './components/Technologies/Technologies';
+import Skills from './components/Skills/Skills';
 import Contacts from './components/Contacts/Contacts';
 import About from './components/About/About';
 import Toggle from './components/Toggle/Toggle';
@@ -22,7 +22,7 @@ function App() {
       <Header />
       <Section />
       <Projects /> 
-      <Technologies />
+      <Skills />
       <About />
       <Contacts />
     </div>

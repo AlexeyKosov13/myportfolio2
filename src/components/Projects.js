@@ -2,7 +2,7 @@ export const projects = [
   {
     title: "Furniture lending",
     description:
-      "Lending-сайт компании производящей мебель. В коде используется API yandex map. На js выполнено модальное окно, таймер обратного отсчета, опрос. При апомощи JQuery реалезован ввод номера телефона",
+      "Lending-сайт компании производящей мебель. В коде используется API yandex map. На js выполнено модальное окно, таймер обратного отсчета, опрос. При помощи JQuery реалезован ввод номера телефона.",
     image: "images/projects/1.png",
     tags: ["HTML5", "SCSS", "JavaScript"],
     source: "https://github.com/AlexeyKosov13/furnitureLending",
@@ -12,18 +12,18 @@ export const projects = [
   {
     title: "Кино-портал",
     description:
-      "Кино-портал, используется API kinopoisk. Присутствует сортировка и выбор списков. Вывод модального окна с дополнительной информацией. Так же есть главная страница с двумя слайдерами, страница с заказами билетов и выбор места. Так же страница с игрой по угадыванию фильмов",
+      "Кино-портал, используется API kinopoisk. Присутствует сортировка и выбор списков. Вывод модального окна с дополнительной информацией. Так же есть главная страница с двумя слайдерами, страница с заказами билетов и выбор места. Так же страница с игрой по угадыванию фильмов.",
     image: "images/projects/2.png",
     tags: ["HTML5", "JavaScript"],
     source: "https://github.com/AlexeyKosov13/cinemaChoseSeat",
     visit:
-      "https://alexeykosov13.github.io/cinemaChoseSeat/movies.htmlhttps://google.com",
+      "https://alexeykosov13.github.io/cinemaChoseSeat/movies.html",
     id: 1,
   },
   {
     title: "Mагазин роллов",
     description:
-      "магазин для заказов роллов. Добавление, удаление и подсчет общей суммы в корзине реализовано все на JavaScript",
+      "магазин для заказов роллов. Добавление, удаление и подсчет общей суммы в корзине реализовано все на JavaScript.",
     image: "images/projects/3.png",
     tags: ["HTML5", "JavaScript"],
     source: "https://github.com/AlexeyKosov13/rolliShop",
@@ -43,7 +43,7 @@ export const projects = [
   {
     title: "Погода",
     description:
-      "Введя в строке поиска название города, получаем актуальную погоду в выбранном месте. используется API Open Weather Map",
+      "Введя в строке поиска название города, получаем актуальную погоду в выбранном месте. используется API Open Weather Map. В данный момент с территории России для работы приложения необходим vpn.",
     image: "images/projects/5.png",
     tags: ["React"],
     source: "https://github.com/AlexeyKosov13/weatherApp",
@@ -52,7 +52,7 @@ export const projects = [
   },
   {
     title: "Instagram",
-    description: "Копия сайта instagram реалезованного на React",
+    description: "Копия сайта instagram реализованного на React.",
     image: "images/projects/6.png",
     tags: ["React", "HTML5"],
     source: "https://github.com/AlexeyKosov13/instagram",
@@ -61,7 +61,7 @@ export const projects = [
   },
   {
     title: "Магазин телефонов",
-    description: "Магазин телефонов на React. Использован сервис для хранения данных mockapi",
+    description: "Магазин телефонов на React. Использован сервис для хранения данных mockapi.",
     image: "images/projects/7.png",
     tags: ["React", "Redux"],
     source: "https://github.com/AlexeyKosov13/phone-shop",
@@ -70,7 +70,7 @@ export const projects = [
   },
   {
     title: "Магазин игр",
-    description: "Магазин игр на React.",
+    description: "Магазин игр на React и Redux",
     image: "images/projects/8.png",
     tags: ["React", "Redux"],
     source: "https://github.com/AlexeyKosov13/react-shop-game",
@@ -79,7 +79,7 @@ export const projects = [
   },
   {
     title: "Сайт путешествий",
-    description: "Сайт туристической компании выполненый на Reactю",
+    description: "Сайт туристической компании выполненый на React",
     image: "images/projects/9.png",
     tags: ["React"],
     source: "https://github.com/AlexeyKosov13/react-travel-site",

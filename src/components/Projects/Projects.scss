@@ -29,7 +29,7 @@
 .item {
     &__browser {
         height: 20px;
-        background-color: rgb(243,242,242);
+        background-color: rgb(190, 187, 187);
         display: flex;
         align-items: center;
         padding-left: 10px;
@@ -100,12 +100,17 @@
     }
 
     &__links {
-       
-    }
+        display: flex;
+        justify-content: center;
 
-    &__link {
-        font-size: 14px;
-        margin-right: 20px;
+        .item__link-btn {
+            color: #000;
+            margin-left: 20px;
+            margin-right: 20px;
+       }
+       .item__link {
+            color: #000;
+       }
     }
 }
 

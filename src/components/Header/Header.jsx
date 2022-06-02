@@ -12,9 +12,9 @@ function Header() {
   return (
       <div className='container header-container'>
           <div className="header__name">
-                  <a href="#" className="header__logo" style={{ color:darkMode && 'white'}}>
+                  <a href="#" className="header__logo" style={{ color:darkMode && '#fff'}}>
                     <DiCssdeck className='header__logo-img' />
-                    <span>Portfolio</span>
+                    <span style={{ color:darkMode && '#fff'}}>Portfolio</span>
                 </a>           
           </div>
           <nav className="header__nav">
@@ -25,7 +25,7 @@ function Header() {
                       </a>
                   </li>
                   <li className='header__nav-item'>
-                      <a href='#technologies' className='header__nav-link' style={{color: darkMode && 'white' }}>
+                      <a href='#skills' className='header__nav-link' style={{color: darkMode && 'white' }}>
                           Технологии
                       </a>
                   </li>

@@ -1,16 +1,14 @@
-.btn__secondary {
-    color: #FFF;
+.btn--primary {
+    color: #000;
     background: none;
-    border: 1px solid rgba(255, 255, 255, 0.33);
+    border: 1px solid rgba(0,0,0, 0.33);
     box-sizing: border-box;
     border-radius: 999px;
     padding: 16px 24px;
     font-weight: 600;
     font-size: 18px;
     line-height: 16px;
-    width: fit-content;
-    margin-top: 32px;
-    margin-bottom: 80px;
+    width: fit-content;  
     cursor: pointer;
     transition: 0.4s ease;
   &:focus {
@@ -18,7 +16,7 @@
   }
   &:hover {
     color: #0f1624;
-    background: #fff;
+    background: #000;
     border: 1px solid #fff;
   }
   &:active {
@@ -29,7 +27,7 @@
 
 }
 
-.button__front {
+.btn--outline {
   border: none;
   border-radius: 50px;
   color: #fff;
@@ -40,8 +38,6 @@
   font-weight: 600;
   cursor: pointer;
   box-shadow: inset 0px 2px 1px rgba(46, 49, 55, 0.15);
-  padding: 10px 20px;
-  
 
   &:hover {
     background: linear-gradient(270deg, #00DBD8 0%, #B133FF 100%); 
@@ -51,4 +47,21 @@
 
 .btns {
   cursor: pointer;
+}
+
+.btn--medium {  
+  text-align: center;
+  padding: 8px 20px;
+  font-size: 20px;
+}
+
+.btn--large {
+  padding: 12px 26px;
+  font-size: 20px;
+}
+
+.btn--medium:hover, .btn--large:hover {
+  background: rgba(255,255,255, 0.5);
+  color: #242424;
+  transition: all 0.3s ease-out;transition: 250ms;
 }

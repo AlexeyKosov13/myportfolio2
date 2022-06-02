@@ -1,14 +1,13 @@
 import React from 'react';
-import './Technologies.scss';
-// import HTML5 from '../../images/skills/js.svg';
+import './Skills.scss';
 
-function Technologies() {
+function Skills() {
   return (
-    <section id='technologies' className="container technologies__container">
+    <section id='skills' className="container skills__container">
         <div className="divider"></div>
-        <h2 className="technologies__title title">Технологии</h2>
-        <div className="techonologies__subtitle">Технологии применяемые мной при разработке приложений и сайтов</div>
-        <div className="technologies__items">
+        <h2 className="skills__title title">Технологии</h2>
+        <div className="skills__subtitle">Технологии применяемые мной при разработке приложений и сайтов</div>
+        <div className="skills__items">
             <div className="skills__wrapper">
                     <div className="skills__item">
                         <div className="skills__item-img">
@@ -65,4 +64,4 @@ function Technologies() {
   )
 }
 
-export default Technologies
+export default Skills

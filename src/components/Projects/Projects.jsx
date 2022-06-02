@@ -1,11 +1,11 @@
 import React from "react";
 import { projects } from "../Projects";
-import { useContext } from 'react';
-import { ThemeContext } from '../../context';
+import { useContext } from "react";
+import { ThemeContext } from "../../context";
+import Button from "../Buttons/Button";
 import "./Projects.scss";
 
 function Projects() {
-
   const theme = useContext(ThemeContext);
   const darkMode = theme.state.darkMode;
 
@@ -26,8 +26,18 @@ function Projects() {
             </div>
             <div className="item__info">
               <div className="item__text">
-                <h2 className="item__title" style={{color: darkMode && '#9cc9e3' }}>{item.title}</h2>
-                <div className="item__description" style={{color: darkMode && '#e4e6e7' }}>{item.description}</div>
+                <h2
+                  className="item__title"
+                  style={{ color: darkMode && "#9cc9e3" }}
+                >
+                  {item.title}
+                </h2>
+                <div
+                  className="item__description"
+                  style={{ color: darkMode && "#e4e6e7" }}
+                >
+                  {item.description}
+                </div>
               </div>
 
               <div className="item__tags">
@@ -40,12 +50,31 @@ function Projects() {
                   ))}
                 </div>
                 <div className="item__links">
-                  <a href={item.source} className="item__link button__front" target='_blank'>
-                    Код
-                  </a>
-                  <a href={item.visit} className="item__link button__front" target='_blank' >
-                    Сайт
-                  </a>
+                  <div className="item__link-btn">
+                    <Button buttonStyle="btn--primary" buttonSize="btn--medium">
+                      <a
+                        href={item.source}
+                        target="_blank"
+                        className="item__link"
+                        style ={{color:darkMode && '#fff'}}
+                      >
+                        Код
+                      </a>
+                    </Button>
+                  </div>
+                  <div className="item__link">
+                    <Button buttonStyle="btn--primary" buttonSize="btn--medium">
+                      <a
+                        href={item.visit}
+                        target="_blank"
+                        className="item__link"
+                        style ={{color:darkMode && '#fff'}}
+                        style ={{color:darkMode && '#fff'}}
+                      >
+                        Сайт
+                      </a>
+                    </Button>
+                  </div>
                 </div>
               </div>
             </div>

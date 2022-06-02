@@ -13,7 +13,7 @@ function Hero({handleClick}) {
               <p className="hero__description">
                   Меня зовут Алексей. На данный момент я являюсь junior Front-end разработчиком. 
               </p>
-              <Button className='btns btn__secondary' onClick={handleClick}>Узнать больше</Button>
+              <Button className='btns' onClick={handleClick} buttonStyle='btn--primary' buttonSize='btn--large'>Узнать больше</Button>
           </div>   
     </section>
   )

@@ -87,7 +87,7 @@ function Contacts() {
               <label htmlFor="text">Ваше сообщение</label>
             </div>
             <div className="contacts__btn">
-              <button type="submit">Отправить сообщение</button>
+              <Button type="submit">Отправить сообщение</Button>
             </div>
           </form>
         </div>
