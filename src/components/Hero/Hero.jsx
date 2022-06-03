@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link, animateScroll as scroll } from "react-scroll";
 import Button from '../Buttons/Button';
 import './Hero.scss';
 
@@ -13,7 +14,14 @@ function Hero({handleClick}) {
               <p className="hero__description">
                   Меня зовут Алексей. На данный момент я являюсь junior Front-end разработчиком. 
               </p>
-              <Button className='btns' onClick={handleClick} buttonStyle='btn--primary' buttonSize='btn--large'>Узнать больше</Button>
+              <Link to='about'
+                smooth={true}
+                offset={-20}
+                duration={500}
+              >
+                <Button className='btns' onClick={handleClick} buttonStyle='btn--primary' buttonSize='btn--large'>Узнать больше</Button>
+              </Link>
+              
           </div>   
     </section>
   )

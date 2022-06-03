@@ -9,9 +9,9 @@ function Toggle() {
     }
   return (
       <div className="toggle">
-          <img src="/images/sun.svg" alt="sun" className="toggle__icon" />
-          <img src="/images/moon.svg" alt="sun" className="toggle__icon" />
-          <div className="toggle__button" onClick={handleClick} style={{left: theme.state.darkMode ?0:30}}></div>
+          <img src="/images/moon.svg" alt="sun" className="toggle__icon" onClick={handleClick} />
+          <img src="/images/sun.svg" alt="sun" className="toggle__icon"  onClick={handleClick}/>
+          <div className="toggle__button"  style={{left: theme.state.darkMode ?0:30}}></div>
    </div>
   )
 }
