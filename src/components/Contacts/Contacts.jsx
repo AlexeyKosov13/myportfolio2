@@ -41,7 +41,7 @@ function Contacts() {
 
           <div className="contacts__text">Любым удобным для вас способом:</div>
           <div className="contacts__social">
-            <a href="https://t.me/fosterkos">
+            <a href="https://t.me/fosterkos" target='_blank' > 
               <img
                 src="/images/social/telegram.png"
                 alt="telegram"
@@ -49,7 +49,7 @@ function Contacts() {
                 style={{filter: darkMode && 'invert(1)'}}
               />
             </a>
-            <a href="https://vk.com/id20826044">
+            <a href="https://vk.com/id20826044" target='_blank'>
               <img
                 src="/images/social/vk.png"
                 alt="vk"
@@ -57,7 +57,7 @@ function Contacts() {
                 style={{filter: darkMode && 'invert(1)'}}
               />
             </a>
-            <a href="https://github.com/AlexeyKosov13">
+            <a href="https://github.com/AlexeyKosov13" target='_blank'>
               <img
                 src="/images/social/github.png"
                 alt="github"

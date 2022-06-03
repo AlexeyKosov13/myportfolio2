@@ -37,13 +37,13 @@ function Header() {
               </ul>
           </nav>
           <div className="header__social" >
-              <a href="https://t.me/fosterkos">
+              <a href="https://t.me/fosterkos" target='_blank'>
                   <img src='/images/social/telegram.png' alt='telegram' className='header__social-logo' style={{filter: darkMode && 'invert(1)'}}/>
               </a>
-              <a href="https://vk.com/id20826044">
+              <a href="https://vk.com/id20826044" target='_blank'>
                 <img src='/images/social/vk.png' alt='vk' className='header__social-logo' style={{filter: darkMode && 'invert(1)' }} />
               </a>
-              <a href="https://github.com/AlexeyKosov13">
+              <a href="https://github.com/AlexeyKosov13" target='_blank'>
               <img src='/images/social/github.png' alt='github' className='header__social-logo' style={{filter: darkMode && 'invert(1)' }}/>
               </a>
           </div>

@@ -10,7 +10,7 @@
     line-height: 16px;
     width: fit-content;  
     cursor: pointer;
-    transition: 0.4s ease;
+    transition: all 0.7s ease;
   &:focus {
     outline: none;
   }
@@ -38,6 +38,7 @@
   font-weight: 600;
   cursor: pointer;
   box-shadow: inset 0px 2px 1px rgba(46, 49, 55, 0.15);
+  transition: all 0.7s ease;
 
   &:hover {
     background: linear-gradient(270deg, #00DBD8 0%, #B133FF 100%); 
@@ -53,15 +54,17 @@
   text-align: center;
   padding: 8px 20px;
   font-size: 20px;
+  transition: all 0.7s ease;
 }
 
 .btn--large {
   padding: 12px 26px;
   font-size: 20px;
+  transition: all 0.7s ease;
 }
 
 .btn--medium:hover, .btn--large:hover {
   background: rgba(255,255,255, 0.5);
   color: #242424;
-  transition: all 0.3s ease-out;transition: 250ms;
+  transition: all 0.3s ease-out;
 }

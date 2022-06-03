@@ -38,8 +38,41 @@
             font-weight: 500;
         }
         &:hover {
-            opacity: 0.7;
+            opacity: 0.9;
         }
+    }
+
+    &__nav-link {
+        position: relative;
+        transition: color 0.8s, text-shadow 0.8s;
+
+        &:after {
+            content: '';
+            display: block;
+            position: absolute; /* позиционируем относительно ссылки */
+            bottom: 2%;
+            background: #9ab1f9;
+            height: 10%; /* высота относительно высоты ссылки */
+            width: 0%; /* изначально ширина полосы подчеркивания равна 0% */
+            z-index: -1; /* ставим полосу подчеркивания позади текста ссылки */
+            transition: width 0.8s, opacity 0.8s, box-shadow 0.8s; /* для плавного изменения ширины, прозрачности, тени(свечения) */
+            border-radius: 100px;
+            opacity: 0; /* изначально полоса полностью прозрачна */
+            box-shadow: 0 0 16px rgba(42,157,143,0);
+
+        }
+
+        &:hover:after {
+            width: 100%;
+            opacity: 1;
+            box-shadow: 0 0 16px rgba(42,157,143,0.88);
+          }
+       &:after {
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+      } 
+
     }
 
     &__social {

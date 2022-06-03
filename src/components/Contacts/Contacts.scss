@@ -2,7 +2,6 @@
 .contacts {
     &__container{
         padding-bottom: 90px;
-        padding-right: 30px;
     }
     
     &__wrapper {
@@ -17,6 +16,12 @@
             object-fit: cover;
         }
     }
+
+    &__descr {
+        padding-right: 20px;
+    
+    }
+
     &__title {
         position: relative;
         font-size: 18px;
@@ -55,7 +60,7 @@
     &__form {
         margin-top: 40px;
         display: grid;
-        grid-template: 30px 150px 80px / repeat(2, 220px);
+        grid-template: 30px 150px 80px / repeat(2, 230px);
         column-gap: 10px;
         row-gap: 20px;
         justify-content: space-between;
@@ -75,12 +80,14 @@
     }
     &__input {
         position: relative;
+        
         input {
+            box-sizing: border-box;
             width: 100%;
             height: 100%;
-            padding:0 20px;
             font-size: 12px;
             font-weight: 500;
+            padding: 10px;
         }   
        
     }
@@ -88,12 +95,13 @@
         position: relative;
         grid-column: 1/3;
         textarea {
+            box-sizing: border-box;
             width: 100%;
             height: 100%;
             resize: none;
-            padding: 20px;
             font-size: 12px;
             font-weight: 500;
+            padding: 10px;
         }
     }
     &__btn {
@@ -109,7 +117,7 @@
         }
 
         &__form {
-            grid-template: 30px 150px 80px / repeat(2, 170px);
+            grid-template: 30px 150px 80px / repeat(2, 180px);
             column-gap: 10px;
             row-gap: 20px;
         }
@@ -142,9 +150,9 @@
         &__form {
             margin-top: 40px;
             display: grid;
-            grid-template: 30px 150px 80px / repeat(2, 200px);
+            grid-template: 30px 150px 80px / repeat(2, 210px);
             row-gap: 20px;
-            column-gap: 50px;           
+            column-gap: 20px;           
         }
 
         &__input:first-child {
@@ -164,6 +172,12 @@
             justify-content: center;
         }
 
+        &__descr {
+            padding-right: 0;
+            justify-content: center;
+            align-items: center;
+        }
+
         &__subtitle {
             padding: 0 10px 0 10px;
         }
@@ -173,9 +187,8 @@
         }
 
         &__form {
-            
             justify-content: center;
-            grid-template: 30px 30px 150px 80px / 300px;
+            grid-template: 30px 30px 150px 80px / 250px;
         }
 
         &__text {

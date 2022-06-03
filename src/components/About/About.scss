@@ -98,6 +98,13 @@
             touch-action: pan-x;
             justify-content: initial;
             margin-bottom: 8px; 
+        }     
+    }
+
+    .carousel {
+        &__buttons {
+            display: flex;
+            visibility: visible;
         }
     }
 }
