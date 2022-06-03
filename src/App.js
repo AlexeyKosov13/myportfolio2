@@ -1,5 +1,6 @@
 
 import { useContext } from 'react';
+import { Link, animateScroll as scroll } from "react-scroll";
 import Header from './components/Header/Header'
 import './App.css';
 import Section from './components/Section/Section';
