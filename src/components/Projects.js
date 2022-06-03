@@ -2,7 +2,7 @@ export const projects = [
   {
     title: "Furniture lending",
     description:
-      "Lending-сайт компании производящей мебель. В коде используется API yandex map. На js выполнено модальное окно, таймер обратного отсчета, опрос. При помощи JQuery реалезован ввод номера телефона.",
+      "Lending-сайт компании производящей мебель. В коде используется API yandex map. На js выполнено модальное окно, таймер обратного отсчета, опрос. При помощи JQuery срабатывает маска номера телефона.",
     image: "images/projects/1.png",
     tags: ["HTML5", "SCSS", "JavaScript"],
     source: "https://github.com/AlexeyKosov13/furnitureLending",

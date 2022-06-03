@@ -2,7 +2,6 @@ import React from "react";
 import "./Button.scss";
 import { useContext } from 'react';
 import { ThemeContext } from '../../context';
-import { Link } from "react-router-dom";
 
 const STYLES = ["btn--primary", "btn--outline"];
 

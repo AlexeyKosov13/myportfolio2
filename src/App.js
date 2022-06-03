@@ -1,19 +1,19 @@
 
 import { useContext } from 'react';
-import { Link, animateScroll as scroll } from "react-scroll";
+import { ThemeContext } from './context';
 import Header from './components/Header/Header'
-import './App.css';
 import Section from './components/Section/Section';
 import Projects from './components/Projects/Projects';
 import Skills from './components/Skills/Skills';
 import Contacts from './components/Contacts/Contacts';
 import About from './components/About/About';
 import Toggle from './components/Toggle/Toggle';
-import { ThemeContext } from './context';
 
 
+import './App.css';
 
 function App() {
+  
   const theme = useContext(ThemeContext);
   const darkMode = theme.state.darkMode;
 
