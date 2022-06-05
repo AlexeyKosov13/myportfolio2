@@ -65,7 +65,7 @@ export const projects = [
     image: "images/projects/7.png",
     tags: ["React", "Redux"],
     source: "https://github.com/AlexeyKosov13/phone-shop",
-    visit: "https://phone-shop-q73gu7jr8-alexeykosov13.vercel.app/#/",
+    visit: "https://alexeykosov13.github.io/phone-shop/#/",
     id: 6,
   },
   {
