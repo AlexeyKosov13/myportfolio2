@@ -10,6 +10,17 @@ export const projects = [
     id: 0,
   },
   {
+    title: "Сайт обучающего марафона",
+    description:
+      "Landing-сайт, выполнен по БЭМ. С помощью JavaScript добавлены счетчик, модальные окна и аккордеон.",
+    image: "images/projects/10.png",
+    tags: ["HTML5","SCSS", "JavaScript"],
+    source: "https://github.com/AlexeyKosov13/marathonSite",
+    visit:
+      "https://alexeykosov13.github.io/marathonSite/",
+    id: 1,
+  },
+  {
     title: "Кино-портал",
     description:
       "Кино-портал, используется API kinopoisk. Присутствует сортировка и выбор списков. Вывод модального окна с дополнительной информацией. Так же есть главная страница с двумя слайдерами, страница с заказами билетов и выбор места. Так же страница с игрой по угадыванию фильмов.",
@@ -58,15 +69,6 @@ export const projects = [
     source: "https://github.com/AlexeyKosov13/instagram",
     visit: "https://alexeykosov13.github.io/instagram/",
     id: 5,
-  },
-  {
-    title: "Магазин телефонов",
-    description: "Магазин телефонов на React. Использован сервис для хранения данных mockapi.",
-    image: "images/projects/7.png",
-    tags: ["React", "Redux"],
-    source: "https://github.com/AlexeyKosov13/phone-shop",
-    visit: "https://phone-shop-kappa.vercel.app/#/",
-    id: 6,
   },
   {
     title: "Магазин игр",
