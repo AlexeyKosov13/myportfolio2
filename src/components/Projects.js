@@ -13,7 +13,7 @@ export const projects = [
     title: "Сайт обучающего марафона",
     description:
       "Landing-сайт, выполнен по БЭМ. С помощью JavaScript добавлены счетчик, модальные окна и аккордеон.",
-    image: "images/projects/10.png",
+    image: "images/projects/10.jpg",
     tags: ["HTML5","SCSS", "JavaScript"],
     source: "https://github.com/AlexeyKosov13/marathonSite",
     visit:
