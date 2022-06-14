@@ -12,7 +12,7 @@ export const projects = [
   {
     title: "Сайт обучающего марафона",
     description:
-      "Landing-сайт, выполнен по БЭМ. С помощью JavaScript добавлены счетчик, модальные окна и аккордеон.",
+      "Landing-сайт, выполнен по БЭМ. С помощью JavaScript добавлены счетчик, модальные окна и аккордеон",
     image: "images/projects/10.jpg",
     tags: ["HTML5","SCSS", "JavaScript"],
     source: "https://github.com/AlexeyKosov13/marathonSite",
@@ -71,13 +71,13 @@ export const projects = [
     id: 5,
   },
   {
-    title: "Магазин игр",
-    description: "Магазин игр на React и Redux",
-    image: "images/projects/8.png",
+    title: "Магазин телефонов",
+    description: "Магазин телефонов на React. Использован сервис для хранения данных mockapi.",
+    image: "images/projects/7.jpg",
     tags: ["React", "Redux"],
-    source: "https://github.com/AlexeyKosov13/react-shop-game",
-    visit: "https://react-shop-game-p3eqk5uvr-alexeykosov13.vercel.app/",
-    id: 7,
+    source: "https://github.com/AlexeyKosov13/phone-shop",
+    visit: "https://phone-shop-kappa.vercel.app/#/",
+    id: 6,
   },
   {
     title: "Сайт путешествий",
