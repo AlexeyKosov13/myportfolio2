@@ -29,7 +29,7 @@ export const projects = [
     source: "https://github.com/AlexeyKosov13/cinemaChoseSeat",
     visit:
       "https://alexeykosov13.github.io/cinemaChoseSeat/movies.html",
-    id: 1,
+    id: 2,
   },
   {
     title: "Mагазин роллов",
@@ -39,7 +39,7 @@ export const projects = [
     tags: ["HTML5", "JavaScript"],
     source: "https://github.com/AlexeyKosov13/rolliShop",
     visit: "https://alexeykosov13.github.io/rolliShop/",
-    id: 2,
+    id: 3,
   },
   {
     title: "Змейка",
@@ -49,7 +49,7 @@ export const projects = [
     tags: ["Canvas", "JavaScript"],
     source: "https://github.com/AlexeyKosov13/snakeGame",
     visit: "https://alexeykosov13.github.io/snakeGame/",
-    id: 3,
+    id: 4,
   },
   {
     title: "Погода",
@@ -59,15 +59,6 @@ export const projects = [
     tags: ["React"],
     source: "https://github.com/AlexeyKosov13/weatherApp",
     visit: "https://alexeykosov13.github.io/weatherApp/",
-    id: 4,
-  },
-  {
-    title: "Instagram",
-    description: "Копия сайта instagram реализованного на React.",
-    image: "images/projects/6.png",
-    tags: ["React", "HTML5"],
-    source: "https://github.com/AlexeyKosov13/instagram",
-    visit: "https://alexeykosov13.github.io/instagram/",
     id: 5,
   },
   {
@@ -77,7 +68,7 @@ export const projects = [
     tags: ["React", "Redux"],
     source: "https://github.com/AlexeyKosov13/phone-shop",
     visit: "https://phone-shop-kappa.vercel.app/#/",
-    id: 6,
+    id: 7,
   },
   {
     title: "Сайт путешествий",
