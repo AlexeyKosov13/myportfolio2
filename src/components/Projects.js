@@ -88,6 +88,15 @@ export const projects = [
     visit: "https://react-travel-site-sand.vercel.app/",
     id: 8,
   },
+  {
+    title: "Приложение Блог",
+    description: "Блог выполненый на React. Содержит в себе авторизацию, пользователя администратор. Добавление, редактирование и удаление постов с последующей отправкой их на сервер.",
+    image: "images/projects/11.jpg",
+    tags: ["React"],
+    source: "https://github.com/AlexeyKosov13/blogs.git",
+    visit: "https://blogs-gamma.vercel.app/login",
+    id: 9,
+  },
 ];
 
 export const TimeLineData = [
