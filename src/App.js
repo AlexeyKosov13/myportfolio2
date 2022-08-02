@@ -9,10 +9,17 @@ import Contacts from './components/Contacts/Contacts';
 import About from './components/About/About';
 import Toggle from './components/Toggle/Toggle';
 
-
 import './App.css';
+import { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 function App() {
+
+  useEffect(() => {
+    AOS.init()
+    AOS.refresh()
+  },[])
   
   const theme = useContext(ThemeContext);
   const darkMode = theme.state.darkMode;

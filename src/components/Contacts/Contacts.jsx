@@ -40,7 +40,7 @@ function Contacts() {
           <div className="contacts__text">Свяжитесь со мной</div>
 
           <div className="contacts__text">Любым удобным для вас способом:</div>
-          <div className="contacts__social">
+          <div className="contacts__social" data-aos="zoom-in">
             <a href="https://t.me/fosterkos" target='_blank' > 
               <img
                 src="/images/social/telegram.png"
@@ -74,19 +74,19 @@ function Contacts() {
             onSubmit={sendEmail}
             className="contacts__form"
           >
-            <div className="contacts__input">
+            <div className="contacts__input" data-aos="zoom-in-down">
               <input name="name" type="text" id="name" />
               <label htmlFor="name">Ваше имя</label>
             </div>
-            <div className="contacts__input">
+            <div className="contacts__input" data-aos="zoom-in-down">
               <input name="email" type="email" id="email" />
               <label htmlFor="email">Ваша почта</label>
             </div>
-            <div className="contacts__textarea">
+            <div className="contacts__textarea" data-aos="zoom-in-up">
               <textarea name="message" id="text"></textarea>
               <label htmlFor="text">Ваше сообщение</label>
             </div>
-            <div className="contacts__btn">
+            <div className="contacts__btn" data-aos="zoom-in-up">
               <Button type="submit">Отправить сообщение</Button>
             </div>
           </form>

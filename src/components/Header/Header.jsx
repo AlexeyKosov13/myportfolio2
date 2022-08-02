@@ -16,6 +16,7 @@ function Header() {
           href="#"
           className="header__logo"
           style={{ color: darkMode && "#fff" }}
+          data-aos="fade-right"
         >
           <DiCssdeck className="header__logo-img" />
           <span style={{ color: darkMode && "#fff" }}>Portfolio</span>
@@ -61,7 +62,7 @@ function Header() {
           </li>
         </ul>
       </nav>
-      <div className="header__social">
+      <div className="header__social" data-aos="zoom-in">
         <a href="https://t.me/fosterkos" target="_blank">
           <img
             src="/images/social/telegram.png"

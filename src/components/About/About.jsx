@@ -3,6 +3,7 @@ import { useRef } from "react";
 import { useContext, useEffect } from "react";
 import { ThemeContext } from "../../context";
 import { TimeLineData } from "../Projects";
+import CountUp from 'react-countup';
 
 import "./About.scss";
 
@@ -35,7 +36,6 @@ function About() {
           (carouselRef.current.scrollWidth * 0.7)) *
           TimeLineData.length
       );
-      console.log(index);
       setActiveItem(index);
     }
   };
@@ -61,7 +61,7 @@ function About() {
           {TimeLineData.map((item, index) => (
             <div className="carousel__mobile" key={index} final={index}>
               <div
-                className="carousel__item"
+                className="carousel__item" data-aos="zoom-in"
                 index={index}
                 id={`carousel__item-${index}`}
                 active={activeItem}
@@ -71,7 +71,11 @@ function About() {
                   className="item__title"
                   style={{ color: darkMode && "white" }}
                 >
-                  {item.year}
+                  <div>
+                    <CountUp enableScrollSpy duration={2} end={item.year} />
+                  </div>
+                 
+                  
                   <svg
                     className="carousel__item-img"
                     width="208"
