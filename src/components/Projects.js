@@ -34,11 +34,11 @@ export const projects = [
   {
     title: "Mагазин роллов",
     description:
-      "магазин для заказов роллов. Добавление, удаление и подсчет общей суммы в корзине реализовано все на JavaScript.",
-    image: "images/projects/3.png",
+      "Магазин для заказов роллов. Добавление, удаление и подсчет общей суммы в корзине реализовано все на JavaScript.",
+    image: "images/projects/3.jpg",
     tags: ["HTML5", "JavaScript"],
-    source: "https://github.com/AlexeyKosov13/rolliShop",
-    visit: "https://alexeykosov13.github.io/rolliShop/",
+    source: "https://github.com/AlexeyKosov13/deliverySite",
+    visit: "https://alexeykosov13.github.io/deliverySitePage/",
     id: 3,
   },
   {
@@ -54,8 +54,8 @@ export const projects = [
   {
     title: "Погода",
     description:
-      "Введя в строке поиска название города, получаем актуальную погоду в выбранном месте. используется API Open Weather Map. В данный момент с территории России для работы приложения необходим vpn.",
-    image: "images/projects/5.png",
+      "Введя в строке поиска название города, получаем актуальную погоду в выбранном месте.А так жепогоду в течении дня и на 5 дней. Используется API Open Weather Map.",
+    image: "images/projects/5.jpg",
     tags: ["React"],
     source: "https://github.com/AlexeyKosov13/weatherApp",
     visit: "https://alexeykosov13.github.io/weatherApp/",
@@ -65,7 +65,7 @@ export const projects = [
     title: "Магазин телефонов",
     description: "Магазин телефонов на React. Использован сервис для хранения данных mockapi.",
     image: "images/projects/7.jpg",
-    tags: ["React", "Redux"],
+    tags: ["React"],
     source: "https://github.com/AlexeyKosov13/phone-shop",
     visit: "https://phone-shop-kappa.vercel.app/#/",
     id: 7,
