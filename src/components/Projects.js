@@ -73,7 +73,7 @@ export const projects = [
   {
     title: "Сайт путешествий",
     description: "Сайт туристической компании выполненый на React",
-    image: "images/projects/9.png",
+    image: "images/projects/9.jpg",
     tags: ["React"],
     source: "https://github.com/AlexeyKosov13/react-travel-site",
     visit: "https://react-travel-site-sand.vercel.app/",
