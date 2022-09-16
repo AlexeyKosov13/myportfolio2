@@ -71,12 +71,12 @@ export const projects = [
     id: 7,
   },
   {
-    title: "Сайт путешествий",
-    description: "Сайт туристической компании выполненый на React",
+    title: "Сайт фитнес клуба",
+    description: "Сайт фитнес клуба выполненый на React, с использованием библиотек emailjs, framer-motion, number-counter",
     image: "images/projects/9.jpg",
-    tags: ["React"],
-    source: "https://github.com/AlexeyKosov13/react-travel-site",
-    visit: "https://react-travel-site-sand.vercel.app/",
+    tags: ["React", "SCSS"],
+    source: "https://github.com/AlexeyKosov13/react-gum-site",
+    visit: "https://react-gum-site.vercel.app/",
     id: 8,
   },
   {
