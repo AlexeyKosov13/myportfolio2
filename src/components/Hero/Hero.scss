@@ -12,7 +12,7 @@
         justify-content: start;
         align-items: start;
         padding: 0 20px 0 20px;
-        min-width: 500px;
+        
 
     }
 
@@ -48,6 +48,10 @@
         &__text {
             justify-content: center;
             align-items: center;
+        }
+
+        &__title {
+            max-width: 400px;
         }
 
         &__description {
